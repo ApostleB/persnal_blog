@@ -1,0 +1,101 @@
+/*!**********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/client/scss/styles.scss ***!
+  \**********************************************************************************************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+main {
+  margin: 15%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0e1117;
+  padding: 8px 12px;
+  font-size: 26px;
+}
+.navbar .navbar__logo {
+  font-size: 24px;
+  background-color: black;
+}
+.navbar .navbar__logo i {
+  color: red;
+}
+.navbar .navbar__menu {
+  display: flex;
+}
+.navbar .navbar__menu li {
+  padding: 8px 12px;
+}
+.navbar .navbar__menu li:hover {
+  background-color: #d49466;
+  border-radius: 4px;
+}
+.navbar .navbar__icons {
+  display: flex;
+  padding-left: 0;
+}
+.navbar .navbar__icons li {
+  padding: 8px 12px;
+  font-size: 24px;
+}
+
+body {
+  color: #eee6e5;
+  background-color: #0e1117;
+  font-size: 25px;
+}

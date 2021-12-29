@@ -1,0 +1,13 @@
+@import "./config/_variables";
+@import "./config/reset";
+
+
+//components
+@import "./components/main.scss";
+@import "./components/navbar.scss";
+
+body{
+    color: $custom-color;
+    background-color: $bg;
+    font-size: 25px;
+}
