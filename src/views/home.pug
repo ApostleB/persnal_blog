@@ -1,7 +1,10 @@
 extends base
 
 block contents
-    div test
+    div 
+        if welcomeWords
+            strong=welcomeWords.content
+            
 
 block scripts 
     script(src="/static/js/main.js")

@@ -4,6 +4,7 @@ console.log("PATH"+":"+path.resolve(__dirname));
 module.exports = {
     entry:{
         main: "./src/client/js/main.js",
+        admin: "./src/client/js/admin.js"
     },
     mode: "development",
     watch:true,

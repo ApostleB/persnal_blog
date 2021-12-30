@@ -1,0 +1,16 @@
+extends ../base
+
+block contents
+    div 회원가입
+    form(action="" method="post") 
+        input(type="text" name="email" placeholder="이메일")
+        input(type="password" name="password" placeholder="패스워드")
+        input(type="text" name="name" placeholder="이름")
+        input(type="text" name="nickName" placeholder="별명")
+        input(type="text" name="location" placeholder="주소")
+        a(href="#") 
+            i.fab.fa-github.socialIcon
+        input(type="submit" value="회원가입")
+
+block scripts
+    script(src="/static/js/main.js") 

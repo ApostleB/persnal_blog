@@ -1,0 +1,14 @@
+extends ../base
+
+block contents
+    div 로그인
+    form(action="" method="post")
+        input(type="text" name="email" placeholder="Email")
+        input(type="Password" placeholder="Password")
+        //- input.pwdCheckBox(type="checkbox", name="showPassword")
+        input(type="submit" value="로그인") 
+    include ../partials/popup
+
+
+block scripts
+    script(src="/static/js/main.js") 

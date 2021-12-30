@@ -1,0 +1,23 @@
+extends ./layouts/adminBase
+
+block contents
+    div ADMIN Page
+
+    div System Input Form
+        hr
+        form(action="/admin" method="post") 
+            input(type="text", name="content" placeholder="content" )
+            br
+            input(type="text", name="type" placeholder="type" )
+            br
+            input(type="text", name="inUsePlace" placeholder="inUsePlace" )
+            br
+            input(type="text", name="createUser" placeholder="createUser" )
+            br
+            input(type="text", name="imageUrl" placeholder="imageUrl" )
+            br
+            button(type="submit") Submit
+        hr
+
+block scripts 
+    script(src="/static/js/admin.js") 

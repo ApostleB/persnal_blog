@@ -1,9 +1,7 @@
 import express from "express";
 const rootRouter = express.Router();
+import { home } from "../controllers/homeController"
 
-rootRouter.get("/", (req, res) => {
-  console.log("/");
-  res.render("home");
-});
+rootRouter.get("/", home);
 
 export default rootRouter;

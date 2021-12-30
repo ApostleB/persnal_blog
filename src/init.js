@@ -1,8 +1,11 @@
 import app from "./server";
 const PORT = 4000;
 
-//user Middlewares
+import "dotenv/config";
+import "./db";
+import "./models/System";
+// import "./models/User";
 
 app.listen(PORT, () => {
-    console.log(`Server Start http://localhost:${PORT}`);
+    console.log(`서버 실행 http://localhost:${PORT}`);
 })

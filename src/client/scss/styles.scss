@@ -5,9 +5,30 @@
 //components
 @import "./components/main.scss";
 @import "./components/navbar.scss";
+@import "./components/popup.scss";
 
 body{
     color: $custom-color;
     background-color: $bg;
     font-size: 25px;
+}
+
+input[type=text],input[type=password],.pwdCheckBox.socialIcons {
+    font-size: 20px;
+    display: block;
+    padding: 5px 0px 5px 5px;
+    margin: 8px 0px 8px 0px;
+    border-radius: 4px;
+}
+.socialIcon{
+    font-size: 50px;
+    padding: 5px 5px 5px 0px;
+    margin: 8px 0x 10px 0px;
+}
+input[type=submit]{
+    display: block;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 6px 6px 6px 6px;
+    margin-top: 4px;
 }
